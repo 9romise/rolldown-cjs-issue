@@ -1,6 +1,9 @@
+const config = require('./config.json')
+
 module.exports = {
   meta: 'rule',
   create: function() {
-   console.log('loaded rule')
+    console.log(config)
+    console.log('loaded rule')
   }
 }
