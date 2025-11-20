@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "node scripts/clean.js && rolldown -c rolldown.config.js",
+    "pretest": "npm run build",
     "test": "node dist/index.js"
   },
   "packageManager": "pnpm@10.22.0",
