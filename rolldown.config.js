@@ -4,4 +4,5 @@ export default {
     format: 'cjs',
     preserveModules: true,
   },
+  external: ['vue-eslint-parser', 'rolldown']
 }

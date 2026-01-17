@@ -4,12 +4,14 @@
   "scripts": {
     "build": "node scripts/clean.js && rolldown -c rolldown.config.js",
     "pretest": "npm run build",
-    "test": "node dist/index.js"
+    "test": "node dist/index.js",
+    "test:source": "node src/index.ts"
   },
   "packageManager": "pnpm@10.28.0",
   "devDependencies": {
     "@types/node": "^24.10.9",
     "rolldown": "1.0.0-beta.60",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vue-eslint-parser": "^10.2.0"
   }
 }
