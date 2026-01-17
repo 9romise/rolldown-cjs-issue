@@ -6,10 +6,10 @@
     "pretest": "npm run build",
     "test": "node dist/index.js"
   },
-  "packageManager": "pnpm@10.22.0",
+  "packageManager": "pnpm@10.28.0",
   "devDependencies": {
-    "@types/node": "^24.10.1",
-    "rolldown": "1.0.0-beta.51",
+    "@types/node": "^24.10.9",
+    "rolldown": "1.0.0-beta.60",
     "typescript": "^5.9.3"
   }
 }
